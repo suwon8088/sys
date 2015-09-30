@@ -16,16 +16,15 @@
 ::/* 2015.09.18 autoexec.cmd -> .user_config  */
 ::/*            regµî·Ï½Ã user_config.cmd     */
 ::/* 2015.09.21 user_config.cmd file merge    */
-::/* 2015.09.30 user_config.cmd file merge    */
 ::/********************************************/
-::user variable define
-SET USER_DRIVE=c:
+## user variable define
+SET USER_DRIVE="c:"
 
 ::user display message
 cd /D %USER_DRIVE%\unix\mkl\shl\dos
 cls
 @echo ====================================
-@echo user_config.cmd ver0.0930.2 start...
+@echo user_config.cmd ver0.0930.1 start...
 @echo ------------------------------------
 
 ::user command line
@@ -40,10 +39,10 @@ cls
 
 ::user command line
 @DOSKEY gggo=%USER_DRIVE%\unix\mkl\shl\dos\user_config.cmd
-@DOSKEY ggconfig=notepad %USER_DRIVE%\unix\mkl\shl\dos\user_config.cmd
-@DOSKEY ggvi=notepad %USER_DRIVE%\unix\mkl\shl\dos\gg.cmd
+@DOSKEY ggconfig=notepad %USER_DRIVE%\unix\mkl\shl\dos\user_config1.cmd
+@DOSKEY ggvi=%USER_DRIVE%\unix\mkl\shl\dos\gg.cmd xxz
 @DOSKEY qqgo=%USER_DRIVE%\unix\mkl\shl\dos\qq.cmd
-@DOSKEY qqvi=notepad %USER_DRIVE%\unix\mkl\shl\dos\qq.cmd
+@DOSKEY qqvi=notepad %USER_DRIVE%\unix\mkl\shl\dos\qq.cmd $1
 @DOSKEY ggsqlr=mysql -uroot -p
 @DOSKEY ggsqlp=mysql -uphpmyadmin -p
 
@@ -71,7 +70,3 @@ cls
 @DOSKEY ggtst=cd /D %USER_DRIVE%\unix\mkl\tst
 @DOSKEY ggbak=cd /D %USER_DRIVE%\unix\mkl\bak
 @DOSKEY ggwar=cd /D %USER_DRIVE%\unix\mkl\src\war
-
-::git user directory
-@DOSKEY gghub=cd /D %USER_DRIVE%\Users\uptizen\git\hub
-

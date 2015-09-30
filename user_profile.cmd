@@ -10,7 +10,7 @@
 ##/* 2015.09.18 .user_profile ->              */
 ##/*            user_profile.cmd으로 변경처리 */
 ##/* 2015.09.21 user_profile.cmd file merge   */
-##/* 2015.09.30 user_profile.cmd update       */
+##/* 2015.09.30 user_profile.cmd notepad 변경 */
 ##/********************************************/
 ## user variable define
 USER_DRIVE="/c"
@@ -30,13 +30,13 @@ alias dir='ls'
 
 ## system file edit
 alias gggit='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegit.cmd'
-alias gggitvi='vi '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegit.cmd'
+alias gggitvi='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegit.cmd'
 
 alias gg='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
-alias ggvi='vi '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
+alias ggvi='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
 
 alias gggo='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profile.cmd'
-alias ggconfig='vi '$USER_DRIVE'/unix/mkl/shl/dos/user_profile.cmd'
+alias ggconfig='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profile.cmd'
 
 ## ssh connection
 alias ggdo='ssh root@107.170.205.143'

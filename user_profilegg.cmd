@@ -10,7 +10,9 @@
 ##/* 2015.09.18 .user_profilegg ->            */
 ##/*            user_profilegg.cmd 函版贸府   */
 ##/* 2015.09.21 user_profilegg.cmd merge贸府  */
+##/* 2015.09.30 user_profilegg.cmd notepad函版*/
 ##/********************************************/
+## user variable define
 USER_DRIVE="/c"
 
 clear
