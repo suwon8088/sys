@@ -11,12 +11,12 @@
 ::/*     \system32\cmd.exe /K %HOMEDRIVE%     */
 ::/*     %HOMEPATH%\cmd_profile.cmd           */
 ::/********************************************/
-::/* 2015.07.28 ggvi 주석추가                 */
-::/* 2015.07.28 ggvi1 파라메터 추가           */
-::/* 2015.09.18 autoexec.cmd -> .user_config  */
-::/*            reg등록시 user_config.cmd     */
-::/* 2015.09.21 user_config.cmd file merge    */
-::/* 2015.09.30 user_config.cmd file merge    */
+::/* 15.07.28 ggvi 주석추가                   */
+::/* 15.07.28 ggvi1 파라메터 추가             */
+::/* 15.09.18 autoexec.cmd -> .user_config    */
+::/*          reg등록시 user_config.cmd       */
+::/* 15.09.21 user_config.cmd file merge      */
+::/* 15.09.30 user_config.cmd file merge      */
 ::/********************************************/
 ::user variable define
 SET USER_DRIVE=c:
@@ -25,7 +25,7 @@ SET USER_DRIVE=c:
 cd /D %USER_DRIVE%\unix\mkl\shl\dos
 cls
 @echo ====================================
-@echo user_config.cmd ver0.0930.2 start...
+@echo user_config.cmd Ver0.0930.2 start...
 @echo ------------------------------------
 
 ::user command line

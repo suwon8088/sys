@@ -11,6 +11,7 @@
 ##/*            user_profilegit.cmd 函版贸府  */
 ##/* 2015.09.21 user_profilegit.cmd merge贸府 */
 ##/* 2015.09.30 message update                */
+##/* 2015.10.05 test program                  */
 ##/********************************************/
 STR_CDDOS="/c/unix/mkl/shl/dos"
 STR_CDSYS="/c/Users/uptizen/git/hub/sys"
@@ -55,7 +56,7 @@ elif [[ $1 == "ggsys" ]]; then cp $STR_CDDOS/user*.cmd $STR_CDSYS; cd $STR_CDSYS
 elif [[ $1 == "ggz" ]]; then notepad $STR_CDDOS/user_profilegit.cmd;
 else
     echo "======================================"
-    echo "GIT-HUB UTIL DOCUMENT. Ver0.0930.05"
+    echo "GIT-HUB UTIL DOCUMENT. Ver0.1005.01"
     echo "ex) gggit [add/ commit/ stat/ sys]"
     echo "--------------------------------------"
     echo "$ cdsys >> clsys >> mvsys"

@@ -19,7 +19,7 @@ clear
 ##입력 파라미터값 확인
 if [[ $1 == "" ]]; then
 	echo "======================================"
-	echo "GIT UTIL DOCUMENT. Ver0.0921"
+	echo "GIT UTIL DOCUMENT. Ver0.0930.1"
 	echo "=> EDIT gg 11z / ggz"
 	echo "--------------------------------------"
 	echo "aa:[dev:GITCommnad] bb:[dev:HUBCommand]"

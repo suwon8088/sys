@@ -17,9 +17,9 @@ USER_DRIVE="/c"
 STR_DATE=$(date '+%F %r')
 STR_COMM_VER="\"Uptizen autobat VER 0.${STR_DATE:5:2}${STR_DATE:8:2}\""
 
-## statting message
+## start message
 clear
-echo "user_profile.cmd ver0.0930.01 start..."
+echo "user_profile.cmd Ver0.0930.1 start..."
 cd c:/Users/uptizen/git
 
 ## system command line
@@ -32,14 +32,15 @@ alias dir='ls'
 alias gggit='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegit.cmd'
 alias gggitvi='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegit.cmd'
 
-alias gg='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
-alias ggvi='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
-
 alias gggo='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profile.cmd'
 alias ggconfig='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profile.cmd'
 
+alias gg='. '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
+alias ggvi='notepad '$USER_DRIVE'/unix/mkl/shl/dos/user_profilegg.cmd'
+
 ## ssh connection
-alias ggdo='ssh root@107.170.205.143'
+alias ggdoo='ssh root@107.170.205.143'
+alias ggdo='ssh utzdev@107.170.205.143'
 alias ggcafe='ssh suwon8088@uptizen.com'
 alias ggaws='ssh root@52.68.38.200'
 
